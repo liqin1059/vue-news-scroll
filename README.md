@@ -29,7 +29,11 @@ Vue.use(vueNewsScroll)
 ###  滚动消息
 
 ``` html
-<vue-news-scroll :list-data="listData" :li-style="liStyle" :rollTime="1600"></vue-news-scroll>
+<vue-news-scroll
+  :list-data="listData"
+  :li-style="liStyle"
+  :rollTime="1600">
+</vue-news-scroll>
 ```
 
 | 参数 | 类型 | 备注 | 默认值 |
@@ -51,8 +55,12 @@ Vue.use(vueNewsScroll)
   :rollTime="1600">
   <template slot-scope="scope">
     <div style="position:relative;">
-      {{ scope.item.phone }}成功下单{{ scope.item.money }}元
-      <span style="position:absolute;right:0;">{{ scope.item.time }}</span>
+      {{ scope.item.phone }}
+      成功下单
+      {{ scope.item.money }}元
+      <span style="position:absolute;right:0;">
+        {{ scope.item.time }}
+      </span>
     </div>
   </template>
 </vue-news-scroll>
