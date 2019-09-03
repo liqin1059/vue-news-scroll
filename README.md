@@ -7,10 +7,6 @@
 -  滚动自定义插槽
 -  支持异步获取滚动数据
 
-# 效果展示
-
-![avatar](/src/assets/rollmsggif.gif)
-
 ## npm
 
 ``` bash
@@ -89,6 +85,13 @@ liStyle: {
   paddingRight: '40px'
 }
 ```
+
+# 效果展示
+
+录制gif出来效果有点卡顿，实际没有，我也不知道为什么
+
+![avatar](/src/assets/rollmsggif.gif)
+
 
 源码地址：[https://github.com/liqin1059/vue-news-scroll](https://github.com/liqin1059/vue-news-scroll)
 
