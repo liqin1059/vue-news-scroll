@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <vue-news-scroll :list-data="listData" :li-style="liStyle" :slot-show="true" :rollTime="1600">
+    <vue-news-scroll :list-data="listData" :li-style="liStyle" :slot-show="true" :roll-time="1600">
       <template slot-scope="scope">
         <div style="position:relative;">
           {{ scope.item.phone }}成功下单{{ scope.item.money }}元

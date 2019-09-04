@@ -30,8 +30,8 @@ Vue.use(vueNewsScroll)
 
 ``` html
 <vue-news-scroll
-  :list-data="listData"
-  :li-style="liStyle"
+  :listData="listData"
+  :liStyle="liStyle"
   :rollTime="1600">
 </vue-news-scroll>
 ```
@@ -49,9 +49,9 @@ Vue.use(vueNewsScroll)
 
 ``` html
 <vue-news-scroll
-  :list-data="listData"
-  :li-style="liStyle"
-  :slot-show="true"
+  :listData="listData"
+  :liStyle="liStyle"
+  :slotShow="true"
   :rollTime="1600">
   <template slot-scope="scope">
     <div style="position:relative;">
